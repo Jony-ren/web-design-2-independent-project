@@ -7,9 +7,13 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+  </ul>
   <header role="banner">
     <img class="logo" src="logo/logo-256px-wide.svg" alt="">
-    <nav role="navigation">
+    <nav role="navigation" id="nav">
       <ol>
         <li><a href="#">About</a></li>
         <li><a href="#">Product</a></li>
@@ -19,7 +23,7 @@
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main">
     <section class="product">
       <img src="images/153-gold.jpg" alt="">
       <a href="#">Learn more</a>
