@@ -138,8 +138,10 @@ footer p {
   margin-top: 4rem;
 }
 
-.peninfo {
-  display: block;
+#peninfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 main ol {
@@ -158,9 +160,6 @@ main h2 {
 
 main a {
   font-family: korolev-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-
   font-size: 1.3rem;
   text-decoration: none;
   color: white;
@@ -168,6 +167,8 @@ main a {
   padding: .8rem 1.5rem;
   border-radius: .3rem;
   transition: all .2s linear;
+  margin-top: 1.5rem;
+  width: 4.75rem;
 }
 
 main a:hover {

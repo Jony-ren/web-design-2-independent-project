@@ -128,6 +128,31 @@ main ul {
   margin-top: -11px;
 }
 
+main a {
+  font-family: korolev-condensed, sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  background-color: #cc3e3a;
+  padding: .8rem 1.5rem;
+  border-radius: .3rem;
+  transition: all .2s linear;
+  margin-top: 1.5rem;
+  width: 4.75rem;
+}
+
+main a:hover {
+  color: #cc3e3a;
+  background-color: white;
+  padding: 1rem 1.7rem;
+}
+
+#peninfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 footer {
   color: white;
   background-color: #333;
@@ -154,4 +179,37 @@ footer p {
 
 .copyright {
   margin-top: 4rem;
+}
+
+@media only screen and (max-width: 48rem) {
+
+  body {
+    margin: 1rem 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -30px;
+  }
+
+  ol {
+    padding: 0
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0 1.5rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
 }
