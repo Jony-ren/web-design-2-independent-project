@@ -254,16 +254,18 @@ footer p {
   }
 
   .product a {
-    left: 12rem;
-    right: 9rem;
+    font-size: 1rem;
+    left: 2.8rem;
+    right: 8px;
     bottom: 2rem;
     border-radius: 20px;
     text-align: center;
   }
 
   .product2 a {
-    left: 12rem;
-    right: 9rem;
+    font-size: 1rem;
+    left: 2.8rem;
+    right: 8px;
     bottom: 2rem;
     border-radius: 20px;
     text-align: center;
